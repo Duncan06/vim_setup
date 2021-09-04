@@ -37,7 +37,9 @@ if empty(glob(data_dir . '/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.vim/plugged')
-Plug 'gruvbox-community/gruvbox'
+  Plug 'gruvbox-community/gruvbox'
+  Plug 'preservim/nerdtree'
+  Plug 'ctrlpvim/ctrlp.vim'
 call plug#end()
 
 colorscheme gruvbox
